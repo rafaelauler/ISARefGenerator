@@ -48,7 +48,7 @@ main(int argc, char **argv) {
     wordsize = 32;
   }
 
-  ISARef Ref(format_ins_list, instr_list, wordsize);
+  ISARef Ref(format_ins_list, instr_list, isa_filename);
 
 
   acppUnload();
